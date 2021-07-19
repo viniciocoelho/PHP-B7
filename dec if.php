@@ -27,3 +27,4 @@ Operardor ternário - Sintaxe
 echo ($idade > 18) ? 'menor de idade' : 'maior de idade';
 
 ?>
+teste 2
