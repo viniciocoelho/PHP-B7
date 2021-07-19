@@ -1,0 +1,16 @@
+
+<?php 
+
+$nome = 'Coelho';
+//$sobrenome = 'vinicio';
+
+
+
+$nomeCompleto = $nome;
+
+// $nomeCompleto .= isset($sobrenome) ? $sobrenome : '';
+
+// Se a vaiavel existir use ela mesma ?? se não use outra coisa ''
+$nomeCompleto .= $sobrenome ?? '';
+echo $nomeCompleto;
+?>
