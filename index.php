@@ -1,40 +1,19 @@
-
 <?php 
 
-$tipo = 'video';
+$ingredientes = [
+    'acucar',
+    'ovo',
+    'trigo',
+    'fermento'
+];
 
-switch($tipo) {
-    case 'foto':
-        echo 'Exibindo foto';
-        break;
-    
-    case 'video' :
-        echo 'Exibindo video';
-        break;
+echo '<h2>Ingredientes</h2>';
 
-    case 'texto' :
-        echo 'Exibindo texto';
-        break;
-}
-
-
-
-
-
-
-/*
-if ($tipo == 'foto') {
-    echo 'Exibindo uma foto';
-}
-
-if ($tipo == 'video') {
-    echo 'Exibindo uma video';
-}
-
-if ($tipo == 'texto') {
-    echo 'Exibindo uma texto';
-}
-*/
+echo "<ul>";
+foreach($ingredientes as $ingredientes) {
+    echo '<li>'.$ingredientes.'</li>';
+};
+echo "</ul>";
 
 
 ?>
